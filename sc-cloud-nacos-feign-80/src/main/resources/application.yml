@@ -1,0 +1,16 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: nacos-feign
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.137.1:8848
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

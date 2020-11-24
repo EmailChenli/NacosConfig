@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-api-commons" />
+        <module name="sc-cloud-alibaba-cosumer-nacos-order-8003" />
+        <module name="sc-cloud-nacos-config" />
+        <module name="sc-cloud-nacos-feign-80" />
+        <module name="sc-provider-9001" />
+        <module name="sc-provider-9002" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
