@@ -13,6 +13,7 @@ import java.util.List;
 @Component
 @FeignClient(value = "nacos-payment-provider")
 @RequestMapping("payment")
+//调用其他服务的方法不用实现接口，自己调用自己需要实现本地接口，public class AbilityRestController extends BaseRestController implements AbilityFeignClient
 public interface OrderFeignService {
     @GetMapping("/nacos/{id}")
     public String getPaymentById(@PathVariable("id") Long id);
